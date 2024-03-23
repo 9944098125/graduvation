@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+	padding: 0 0;
+	margin: 0 0;
+	font-family: "Poppins", sans-serif;
+}
+
+/* navbar styles */
+.navbar-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 85px;
+	height: fit-content;
+}
+.col {
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+	width: 50% !important;
+}
+.logo {
+	width: 76px;
+	height: 42.75px;
+}
+.links-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.links {
+	font-size: 16px;
+	font-weight: 700;
+}
+.logout-btn {
+	background-color: #d01c28;
+	height: Hug(31px);
+	width: Hug(75px);
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	color: white;
+	font-weight: 700;
+	padding: 6px 16px;
+	cursor: pointer;
+}
+.page-container {
+	display: flex;
+	gap: 0;
+	padding: 50px 150px 0px 150px;
+}
+.main-head-container {
+	width: 100% !important;
+	padding: 0px 0px !important;
+	margin: 0 0 !important;
+}
+.main-head {
+	font-size: 108px;
+	font-weight: 800;
+	margin: 0 0 !important;
+	line-height: 102px;
+}
+.paragraph-container {
+	width: 65%;
+	padding: 0 0 !important;
+	margin: 0 0 !important;
+}
+.paragraph {
+	color: #5a5959;
+	font-weight: 600;
+	font-size: 16px;
+}
+.buttons-container {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.shop-now {
+	background-color: #d01c28;
+	height: Hug(31px);
+	width: Hug(75px);
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	color: white;
+	font-weight: 700;
+	padding: 6px 16px;
+	cursor: pointer;
+}
+.category {
+	height: Hug(31px);
+	width: Hug(75px);
+	border: 1px solid black;
+	outline: none;
+	border-radius: 4px;
+	color: black;
+	font-weight: 700;
+	padding: 6px 16px;
+	cursor: pointer;
+}
+.two-brands-container {
+	padding: 25px;
+}
+.two-brands {
+	height: 67px;
+	width: 131px;
+}
+.main-image-container {
+	width: 50%;
+}
+.shoe-image {
+	width: 530px;
+	height: 487px;
+}
+@media screen and (max-width: 1024px) {
+	.main-head {
+		font-size: 65px;
+		line-height: 60px;
+	}
+	.paragraph-container {
+		width: 40%;
+	}
+	.shoe-image {
+		width: 450px;
+		height: 400px;
+	}
+	.page-container {
+		padding: 50px 100px 0px 100px;
+	}
+	.paragraph-container {
+		width: 85%;
+	}
+}
